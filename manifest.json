@@ -1,0 +1,17 @@
+{
+  "name": "FocusFlow Planner",
+  "short_name": "FocusFlow",
+  "description": "A bilingual planner for tasks and big goals.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#0f0f0f",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

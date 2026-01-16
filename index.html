@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusFlow - Tasks & Goals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1 id="appTitle">FocusFlow</h1>
+            <button id="langToggle" class="secondary-btn">ES / EN</button>
+        </header>
+
+        <section class="input-area">
+            <input type="text" id="mainInput" placeholder="New Task or Goal...">
+            <div class="date-time-group">
+                <input type="date" id="taskDate">
+                <input type="time" id="taskTime">
+            </div>
+            <select id="typeSelect">
+                <option value="task">Task / Tarea</option>
+                <option value="goal">Goal / Meta</option>
+            </select>
+            <button id="addBtn">+</button>
+        </section>
+
+        <div class="lists-wrapper">
+            <div class="column">
+                <h2 id="taskHeader">Daily Tasks</h2>
+                <ul id="taskList"></ul>
+            </div>
+            <div class="column">
+                <h2 id="goalHeader">Big Goals</h2>
+                <ul id="goalList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
